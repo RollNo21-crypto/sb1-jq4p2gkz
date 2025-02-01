@@ -188,12 +188,12 @@ export function AdminProducts() {
                       >
                         <Trash2 className="h-5 w-5" />
                       </button>
-                      <button 
+                      {/* <button 
                         className="text-gray-600 hover:text-gray-900"
                         onClick={() => window.open(`/product/${product.id}`, '_blank')}
                       >
                         <Eye className="h-5 w-5" />
-                      </button>
+                      </button> */}
                     </div>
                   </td>
                 </tr>
