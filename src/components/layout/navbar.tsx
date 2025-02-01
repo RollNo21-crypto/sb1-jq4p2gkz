@@ -276,12 +276,18 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link 
-            to="/" 
-            className="flex items-center gap-2 text-primary-600"
-          >
-            <Package className="h-8 w-8" />
-            <span className="text-2xl font-bold">POSSPOLE</span>
-          </Link>
+              to="/" 
+              className="flex items-center gap-2 text-primary-600"
+            >
+              <img 
+                src="/assets/posspole.png" 
+                alt="Logo" 
+                className="h-12 w-auto"
+              />
+              {/* <Package className="h-8 w-8" /> */}
+              {/* <span className="text-2xl font-bold">POSSPOLE</span> */}
+            </Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
