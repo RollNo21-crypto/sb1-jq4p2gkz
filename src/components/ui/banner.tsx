@@ -87,24 +87,30 @@
 // }
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import buyBanner from "/assets/buybanner.jpg";
+import mobileBuy from "/assets/mobilebuy.jpg";
+import donateBanner from "/assets/donatebanner.jpg";
+import mobileDonate from "/assets/mobiledonate.jpg";
+import sellBanner from "/assets/sellbanner.jpg";
+import mobileSell from "/assets/mobilesell.jpg";
 
 const banners = [
   {
     id: 1,
-    desktopImage: "/assets/buybanner.jpg",
-    mobileImage: "/assets/mobilebuy.jpg",
+    desktopImage: buyBanner,
+    mobileImage: mobileBuy,
     alt: "Buy & Sell",
   },
   {
     id: 2,
-    desktopImage: "/assets/donatebanner.jpg",
-    mobileImage: "/assets/mobiledonate.jpg",
+    desktopImage: donateBanner,
+    mobileImage: mobileDonate,
     alt: "Donate Items",
   },
   {
     id: 3,
-    desktopImage: "/assets/sellbanner.jpg",
-    mobileImage: "/assets/mobilesell.jpg",
+    desktopImage: sellBanner,
+    mobileImage: mobileSell,
     alt: "Sell Products",
   },
 ];
